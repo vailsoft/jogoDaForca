@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forca.css">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="forca.css">
+        <title>Document</title>
+        <script src="forca.js"></script>
+    </head>
+    <body>
+        <h2>Jogo da Forca</h2>
+        <div id="divPalavra"></div>
+        Digite uma letra: <input type='text' id='letra' autofocus>
+        <button id="btnVerifica">Verificar</button>
+        <button id="btnDica">Dica</button>
+        <button onclick="reload()">Nova Palavra</button>
+        <div id="letrasUsadas"></div>
+        <div id="boneco">
+            <div id="cabeca"></div>
+            <div id="tronco"></div>
+            <div id="bracoEsq"></div>
+            <div id="pernaEsq"></div>
+            <div id="bracoDir"></div>
+            <div id="pernaDir"></div>
+            <div id="lingua"><img src="lingua.png" alt="" width="80px"></div>
+            <h1><pre id="died">X  X</pre></h1>
+        </div>
+    </body>
+    </html>
+</body>
+</html>

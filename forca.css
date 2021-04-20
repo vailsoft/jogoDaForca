@@ -1,0 +1,93 @@
+input {
+    width: 20px;
+}
+#divPalavra{
+    margin-bottom: 20px;
+}
+input#letra{
+    text-transform: lowercase;
+    text-align: center;
+}
+input.posicao{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#cabeca {
+    width: 110px;
+    height: 110px;
+    border: solid 10px black;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 10px;
+    left: 200px;
+    display: none;
+}
+#tronco {
+    height: 190px;
+    width: 10px;
+    border-left: solid 11px black;
+    margin-top: 130px;
+    position: absolute;
+    left: 260px;
+    display: none;
+}
+
+#bracoEsq {
+    height: 120px;
+    width: 10px;
+    border-left: solid 10px black;
+    margin-top: 140px;
+    position: absolute;
+    left: 225px;
+    transform: rotate(35deg);
+    display: none;
+}
+
+#bracoDir {
+    height: 120px;
+    width: 10px;
+    border-left: solid 10px black;
+    margin-top: 140px;
+    position: absolute;
+    left: 295px;
+    transform: rotate(-35deg);
+    display: none;
+}
+
+#pernaEsq {
+    height: 120px;
+    width: 10px;
+    border-left: solid 10px black;
+    margin-top: 300px;
+    position: absolute;
+    left: 225px;
+    transform: rotate(35deg);
+    display: none;
+}
+
+#pernaDir {
+    height: 120px;
+    width: 10px;
+    border-left: solid 10px black;
+    margin-top: 300px;
+    position: absolute;
+    left: 295px;
+    transform: rotate(-35deg);
+    display: none;
+}
+#died{
+    color: red; 
+    position: absolute; 
+    left: 235px;
+    font-weight: bolder;
+    display: none;
+}
+
+#lingua{
+    position: absolute;
+    left: 220px;
+    top: 230px;
+    display: none;
+}
